@@ -1,6 +1,6 @@
 # Algorithmns-Class_HW0
 
-## Q1: maxOfArray (3 points)
+## Q1: maxOfArray
 
 Write maxOfArray, which takes in an array of integers and returns the largest integer within the
 array. If the array is empty, throw an IllegalArgumentException. 
@@ -14,7 +14,7 @@ System.out.println(testResult2); // should output -1
 maxOfArray(new int[] {}); // Should throw IllegalArgumentException
 ```
 
-## Q2: twoSum (3 points)
+## Q2: twoSum
 Write twoSum, which takes in an array of integers and a target sum, and returns a 2-element
 array that represents two distinct indices of elements that sum up to the target value. 
 
@@ -30,7 +30,7 @@ System.out.println(Arrays.toString(testResult4)); // should output [-1, -1]
 ● In the second example, we returned [-1, -1] because there are not two distinct
 elements within the array that sum to 10 (you can't use 5 twice).
 
-## Q3 (4 points)
+## Q3
 Write add, which given two numbers represented as Lists of single-digit integers, returns their
 sum as a list of integers. 
 
